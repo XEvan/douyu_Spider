@@ -16,8 +16,8 @@
   mysql> use douyuInfo;
   
   mysql> create table douyu( id int auto_increment primary key, roomID varchar(10), nickName varchar(10), hotNumber varchar(8), roomName varchar(20), roomLabel varchar(18), roomPic varchar(100));
-  
-  
+
+
 2、通过Fiddler抓包工具，抓取手机的通信信息，前提是手机和电脑处于同一局域网内，然后进行以下设置
 
   手机端添加Fiddler所在电脑的ip（比如192.168.11.11）和端口号（比如8888），然后打开手机浏览器，输入192.168.11.11：8888，下载信任证书，然后就可以通过Fiddler来抓包。
